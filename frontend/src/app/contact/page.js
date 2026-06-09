@@ -5,9 +5,9 @@ import { whatsappUrl } from "@/lib/contact";
 const contactInfo = [
   {
     label: "Telefon",
-    value: "+90 531 337 92 71",
+    value: "+90 546 875 56 44",
     desc: "Toptan sipariş ve stok bilgisi için arayabilirsiniz.",
-    href: "tel:+905313379271",
+    href: "tel:+905468755644",
   },
   {
     label: "E-Posta",
@@ -73,7 +73,7 @@ const googleMapsEmbedUrl = `https://maps.google.com/maps?q=${mapQuery}&z=16&outp
                 </Link>
 
                 <Link
-                  href="tel:+905313379271"
+                  href="tel:+905468755644"
                   className="inline-flex h-14 items-center justify-center rounded-full border border-[#b45a3c] bg-white px-8 text-[12px] font-black uppercase tracking-[0.08em] text-[#b45a3c] transition-all duration-300 hover:bg-[#b45a3c] hover:text-white sm:text-[13px]"
                 >
                   Hemen Ara
@@ -175,7 +175,7 @@ const googleMapsEmbedUrl = `https://maps.google.com/maps?q=${mapQuery}&z=16&outp
                   Telefon
                 </p>
                 <p className="mt-2 text-lg font-bold text-white/85">
-                  +90 531 337 92 71
+                  +90 546 875 56 44
                 </p>
               </div>
 

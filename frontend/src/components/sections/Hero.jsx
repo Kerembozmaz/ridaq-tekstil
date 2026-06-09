@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function Hero() {
-  const phoneNumber = "905313379271";
+  const phoneNumber = "905468755644";
 
   const whatsappMessage =
     "Merhaba, #Ridaq Tekstil toptan tişört ürünleri hakkında bilgi ve teklif almak istiyorum.";

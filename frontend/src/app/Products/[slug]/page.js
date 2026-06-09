@@ -59,7 +59,7 @@ export default async function ProductDetailPage({ params }) {
                 </Link>
 
                 <Link
-                  href="/iletisim"
+                  href="/contact"
                   className="inline-flex h-14 items-center justify-center rounded-full border border-[#b45a3c] bg-white px-8 text-[12px] font-black uppercase tracking-[0.08em] text-[#b45a3c] transition-all duration-300 hover:bg-[#b45a3c] hover:text-white sm:text-[13px]"
                 >
                   İletişime Geç
