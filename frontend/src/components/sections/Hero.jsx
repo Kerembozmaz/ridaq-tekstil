@@ -19,32 +19,35 @@ export default function Hero() {
               <span className="h-[2px] w-9 bg-[#b45a3c] sm:w-10" />
 
               <span className="text-[11px] font-black uppercase tracking-[0.24em] text-[#b45a3c] sm:text-xs sm:tracking-[0.28em]">
-                Toptan Tişört Tedariğinde
+                Tarzın Üretim Merkezi
               </span>
             </div>
 
             <h1 className="max-w-2xl text-[43px] font-black leading-[0.98] tracking-[-0.055em] text-[#101827] min-[390px]:text-[48px] sm:text-[64px] md:text-[76px] lg:text-[82px] xl:text-[94px]">
-              Güçlü Stok.
+              Erkek, Kadın Giyimde
               <br />
-              Kaliteli Ürün.
-              <br />
-              <span className="text-[#b45a3c]">Güvenilir Tedarik.</span>
+              <span className="text-[#b45a3c]">Yüksek Kalite</span>
             </h1>
 
             <div className="mt-7 h-[3px] w-20 bg-[#101827] sm:mt-8" />
 
             <p className="mt-7 max-w-xl text-[15px] leading-7 text-[#4b5563] sm:mt-8 sm:text-lg sm:leading-8">
-              Basic, oversize, polo yaka ve baskıya uygun tişört modellerinde;
-              markalar, mağazalar ve kurumsal müşteriler için hızlı, düzenli ve
-              kaliteli tedarik çözümleri sunuyoruz.
+              ​Türkiye’den tüm Avrupa’ya uzanan üretim gücümüzle, modayı
+              kaliteyle buluşturuyoruz. Kendi tesislerimizde titizlikle
+              ürettiğimiz tekstil ürünlerini, hız ve güvenle kapınıza kadar
+              ulaştırıyoruz. ​Türkiye'den Tüm Avrupa'ya Güvenli Sevk ​Birinci
+              Sınıf İşçilik & Kaliteli Kumaş ​Geniş Üretim Kapasitesi
             </p>
 
-            <div className="mt-9 flex flex-col gap-4 sm:mt-10 sm:flex-row">
+            <div className="mt-9 flex flex-col gap-4 sm:mt-10 md:flex-row md:items-center">
               <Link
                 href="#urunler"
-                className="group flex h-14 items-center justify-center bg-[#101827] px-7 text-[13px] font-black uppercase tracking-[0.12em] text-white transition-all duration-300 hover:bg-[#b45a3c] sm:text-sm"
+                className="group inline-flex h-14 w-full items-center justify-center rounded-full bg-[#101827] px-7 text-[12px] font-black uppercase leading-none tracking-[0.08em] text-white transition-all duration-300 hover:bg-[#b45a3c] sm:w-auto sm:px-8 md:min-w-[260px] md:text-[13px]"
               >
-                Ürün Gruplarını İncele
+                <span className="whitespace-nowrap">
+                  Ürün Gruplarını İncele
+                </span>
+
                 <span className="ml-3 transition-transform duration-300 group-hover:translate-x-1">
                   →
                 </span>
@@ -53,9 +56,13 @@ export default function Hero() {
               <Link
                 href={whatsappUrl}
                 target="_blank"
-                className="flex h-14 items-center justify-center border border-[#b45a3c] bg-white px-7 text-[13px] font-black uppercase tracking-[0.12em] text-[#b45a3c] transition-all duration-300 hover:bg-[#b45a3c] hover:text-white sm:text-sm"
+                rel="noopener noreferrer"
+                className="inline-flex h-14 w-full items-center justify-center rounded-full border border-[#b45a3c] bg-white px-8 text-[12px] font-black uppercase leading-none tracking-[0.08em] text-[#b45a3c] transition-all duration-300 hover:bg-[#b45a3c] hover:text-white sm:w-auto md:min-w-[150px] md:text-[13px]"
               >
-                Whatsapp İle Teklif Al
+                <span className="whitespace-nowrap">
+                  {" "}
+                  Whatsapp ile Teklif Al
+                </span>
               </Link>
             </div>
           </div>
