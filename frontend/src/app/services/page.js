@@ -106,7 +106,7 @@ export default function ServicesPage() {
           <div className="relative hidden min-h-[560px] overflow-hidden bg-[#101827] lg:block">
             <img
               src="/images/ridaq-4.jpeg"
-              alt="#Ridaq Tekstil hizmetler"
+              alt="#Ridaq Collezione hizmetler"
               className="absolute inset-0 h-full w-full object-cover object-center opacity-85"
             />
 

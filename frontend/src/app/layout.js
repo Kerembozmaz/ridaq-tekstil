@@ -12,8 +12,38 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Ridaq Tekstil",
-  description: "Toptan Tişört Üretim",
+  title: "RIDAQ Collezione | Toptan Tişört ve Tekstil Ürünleri",
+  description:
+    "RIDAQ Collezione, İstanbul merkezli toptan tişört ve tekstil ürünleri tedarikçisidir. Toptan basic tişört, oversize tişört ve tekstil çözümleri sunar.",
+  keywords: [
+    "RIDAQ Collezione",
+    "RIDAQ Tekstil",
+    "toptan tişört",
+    "toptan tekstil",
+    "basic tişört",
+    "oversize tişört",
+    "İstanbul tekstil",
+    "Sultangazi tekstil",
+  ],
+    verification: {
+    google: "oHVAHbC-xhEuKSKn7RKTLD_F0BsuggH3TjKjPmSigNg",
+  },
+
+  alternates: {
+    canonical: "https://ridaqcollezione.com",
+  },
+  openGraph: {
+    title: "RIDAQ Collezione | Toptan Tişört ve Tekstil Ürünleri",
+    description:
+      "İstanbul merkezli toptan tişört ve tekstil ürünleri tedarikçisi.",
+    url: "https://ridaqcollezione.com",
+    siteName: "RIDAQ Collezione",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -87,7 +87,7 @@ export default function ProductsPage() {
           <div className="relative hidden min-h-[520px] overflow-hidden bg-[#e7e3dd] lg:block">
             <img
               src="/images/ridaq-10.jpeg"
-              alt="#Ridaq Tekstil ürün grupları"
+              alt="#Ridaq Collezione ürün grupları"
               className="absolute inset-0 h-full w-full object-contain object-center"
             />
 

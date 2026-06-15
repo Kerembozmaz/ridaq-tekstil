@@ -72,7 +72,7 @@ export default function Hero() {
         <div className="relative hidden min-h-[calc(100vh-80px)] overflow-hidden bg-[#d8d8d4] lg:block">
           <img
             src="/images/ridaq-3.jpeg"
-            alt="#Ridaq Tekstil toptan tişört modelleri"
+            alt="#Ridaq Collezione toptan tişört modelleri"
             className="absolute inset-0 h-full w-full object-cover object-top"
           />
 
