@@ -22,7 +22,25 @@ const contactInfo = [
     href: "#harita",
   },
 ];
+export const metadata = {
+  title: "İletişim",
 
+  description:
+    "Toptan tişört siparişi, fiyat teklifi ve tekstil çözümleri için RIDAQ Collezione ile iletişime geçin.",
+
+  alternates: {
+    canonical: "/contact",
+  },
+
+  openGraph: {
+    title: "İletişim | RIDAQ Collezione",
+    description:
+      "Toptan sipariş ve fiyat teklifi için bizimle iletişime geçin.",
+    url: "/contact",
+    siteName: "RIDAQ Collezione",
+    type: "website",
+  },
+};
 export default function ContactPage() {
    
 

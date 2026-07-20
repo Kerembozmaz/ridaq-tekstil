@@ -32,7 +32,25 @@ const advantages = [
     desc: "Markalar, mağazalar ve işletmeler için profesyonel sipariş desteği.",
   },
 ];
+export const metadata = {
+  title: "Toptan Tişört Modelleri",
 
+  description:
+    "RIDAQ Collezione basic, oversize ve farklı kumaş seçeneklerine sahip toptan tişört modelleri sunar.",
+
+  alternates: {
+    canonical: "/Products",
+  },
+
+  openGraph: {
+    title: "Toptan Tişört Modelleri | RIDAQ Collezione",
+    description:
+      "Basic ve oversize toptan tişört modellerimizi inceleyin.",
+    url: "/Products",
+    siteName: "RIDAQ Collezione",
+    type: "website",
+  },
+};
 export default function ProductsPage() {
   return (
     <main className="min-h-screen bg-[#f6f3ef] text-[#101827]">
@@ -106,6 +124,10 @@ export default function ProductsPage() {
         <div className="mx-auto max-w-[1500px]">
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {products.map((item) => (
+              <Link
+                key={item.slug}
+                href={`/Products/${item.slug}`}
+              >
               <article
                 key={item.slug}
                 className="group overflow-hidden border border-[#101827]/10 bg-[#f8f8f6] transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl"
@@ -138,6 +160,7 @@ export default function ProductsPage() {
                   </Link>
                 </div>
               </article>
+              </Link>
             ))}
           </div>
         </div>

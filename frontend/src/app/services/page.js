@@ -51,7 +51,25 @@ const process = [
     desc: "Onay sonrası ürünleriniz için tedarik ve sevkiyat süreci ilerlesin.",
   },
 ];
+export const metadata = {
+  title: "Toptan Tekstil Hizmetleri",
 
+  description:
+    "RIDAQ Collezione toptan tişört tedariki, özel üretim ve tekstil çözümleri sunar.",
+
+  alternates: {
+    canonical: "/services",
+  },
+
+  openGraph: {
+    title: "Toptan Tekstil Hizmetleri | RIDAQ Collezione",
+    description:
+      "Toptan tekstil ve tişört tedarik hizmetlerimizi inceleyin.",
+    url: "/services",
+    siteName: "RIDAQ Collezione",
+    type: "website",
+  },
+};
 export default function ServicesPage() {
   return (
     <main className="min-h-screen bg-[#f6f3ef] text-[#101827]">
